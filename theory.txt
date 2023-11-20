@@ -1,0 +1,48 @@
+● What is Emmet?
+Emmet Abbreviation saves you time and effort while allowing you to focus on more important matters. By converting acronyms into blocks of structured code in (X)HTML, CSS, XML, XSL, and JSP, Emmet speeds up coding.
+
+● Difference between a Library and Framework?
+framework tries to provide everything required to develop a complete application
+A library is a collection of pre-written code that can be used to perform specific tasks. Libraries are similar to building a cottage from the ground up. You can design your house as you want, with just about any architecture you want, and you can arrange your rooms however you want. 
+A framework is a set of pre-written code that provides a structure for developing software applications. Frameworks are like buying a new cottage. The framework has defined open or unimplemented functions or objects which the user writes to create a custom application. 
+The difference between the two terms is the caller/callee relationship. It is our code which calls the library code while in framework, it is framework's code which calls our code
+
+● What is CDN? Why do we use it?
+A content delivery network (CDN) is a group of servers that cache content close to end users. CDNs are spread out around the world, enabling them to deliver content more efficiently to a wider range of people than an origin server or a single data center can
+Some benefits of using a CDN include: 
+Reduce page load time
+Reduce bounce rates
+Increase the time users spend on your site
+
+
+● Why is React known as React?
+The name "React" comes from the concept of reactive programming, which is a programming paradigm that emphasizes the declarative description of the behavior of a system in response to changes in its inputs. In React, this means that the user interface is automatically updated whenever the data changes.
+“React” was chosen because it is meant to help developers build user interfaces that are fast and responsive, or “reactive.” The library was designed to “react” to changes in data.
+
+● What is crossorigin in script tag?
+The HTML <script> crossorigin attribute specifies that the script element supports CORS. CORS stands for Cross Origin Resource Sharing. It's a standard mechanism for retrieving files from a third party domain or server. 
+The crossorigin attribute sets the mode of the request to an HTTP CORS Request. It's used for loading an external script into their domain from a third party server or another domain. 
+The crossorigin attribute handles the CORS request that checks whether it's safe to allow for sharing the resources from other domains. The resources may include: Audio, Video, Images, Link, External script
+
+● What is diference between React and ReactDOM
+React and ReactDOM are two different JavaScript libraries that are often used together to build user interfaces. React is the core library that provides the functionality for creating and managing React components. ReactDOM is a separate library that provides DOM-specific methods for rendering React components.
+
+● What is difference between react.development.js and react.production.js files via CDN?
+The main difference between react.development.js and react.production.js files is that react.development.js is used for development purposes, while react.production.js is used for production purposes.
+React.development.js contains extra features such as hot module reloading and detailed error messages, which can be helpful for debugging purposes. React.production.js, on the other hand, is optimized for performance and has these extra features removed.
+
+● What is async and defer? =
+Async allows your script to run as soon as it's loaded, without blocking other elements on the page. Asynchronous scripts don't wait for each other.
+Defer
+Defer means your script will only execute after the page has finished loading. Deferred scripts maintain their relative order.
+
+
+
+Normal function 
+
+functiion printText(text){
+    console.log(text);
+}
+
+Arrow functions
+printText = (text)=> console.log(text);
