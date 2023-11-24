@@ -1,0 +1,16 @@
+# Project Assignment:
+- In your existing project
+● - intialize `npm` into your repo   -> npm i
+● - install `react` and `react-dom`  -> npm i react,react-dom
+● - remove CDN links of react
+● - install parcel                  -> npm i -D parcel   (to install only in dev mode)
+● - ignite your app with parcel     -> npx parcel entry_point_of_your_html_page    (x in npm stands for execute)
+● - add scripts for “start” and “build” with parcel commands  -> In package.json go to scrips and add
+                                                    "scripts": {
+                                                    "test": "jest",
+                                                    "start": "parcel entryPoint.html",
+                                                    "build": "parcel build entryPoint.html"
+                                                }
+● - add `.gitignore` file     
+● - add `browserlists`
+● - build a production version of your code using `parcel build`     npm run build

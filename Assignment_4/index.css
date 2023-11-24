@@ -1,0 +1,15 @@
+.container{
+    height: auto;
+    width: 500px;
+}
+
+.img-thumbnail{
+    height: 100px;
+    width: 100px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.user-icon{
+    height: 40px;
+    width: 40px;
+}

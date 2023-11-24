@@ -4,8 +4,8 @@
   "description": "This is namaste-react-course-solution",
   "scripts": {
     "test": "jest",
-    "start" : "parcel Assignment_2/app.html",
-    "build" : "parcel build Assignment_2/app.html"
+    "start": "parcel Assignment_4/app.html",
+    "build": "parcel build Assignment_4/app.html"
   },
   "repository": {
     "type": "git",
@@ -18,14 +18,15 @@
   },
   "homepage": "https://github.com/ankur016/Namaste-React-Assignment-Solutions#readme",
   "devDependencies": {
+    "@babel/core": "^7.23.3",
+    "babel-plugin-transform-remove-console": "^6.9.4",
     "parcel": "^2.10.3",
     "process": "^0.11.10"
   },
   "dependencies": {
+    "bootstrap": "^5.3.2",
+    "bootstrap-icons": "^1.11.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  },
-  "browserlist":[
-    "last 2 firefox versions"
-  ]
+  }
 }
